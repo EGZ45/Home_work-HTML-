@@ -1,0 +1,153 @@
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*!   Index HTML   */
+.body {
+	margin: 0;
+	background-color: rgb(235, 241, 241);
+}
+
+.page {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.header {
+	font-style: inherit;
+	padding: 20px;
+
+	background-color: rgba(63, 63, 230, 0.932);
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	opacity: 0.8;
+
+}
+
+.main {
+
+	max-width: 800px;
+	margin: 0 auto;
+
+	padding: 10px 20px;
+}
+
+.text {
+	margin: 0px 0px 10px 0px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 18px;
+}
+
+
+
+
+.scroll {
+	font-size: 20px;
+	border-style: none none none solid;
+	border-width: 5px;
+	border-color: green;
+	background-color: chartreuse;
+	margin: 0px 0px 10px 0px;
+	botde
+}
+
+.fotter {
+	margin-top: auto;
+}
+
+.fotter {
+	padding: 20px;
+	background-color: rgb(27, 151, 151);
+	height: 75px;
+
+	opacity: 0.9;
+}
+
+.address {
+	flex: content;
+	text-align: right;
+	margin-right: 15px;
+	padding: auto;
+}
+
+.inform {
+	margin-top: 55px;
+	font-size: 10px;
+	text-align: center;
+
+}
+
+/*!   About HTML   */
+.about__body {
+	background-color: burlywood;
+
+}
+
+.about__header {
+	border-style: none none none solid;
+	border-width: 10px;
+	border-color: blue;
+	border-radius: 5px;
+	background-color: aqua;
+	width: 50%;
+	font-size: 30px;
+
+}
+
+.about__main {
+	background-color: aqua;
+	width: 50%;
+
+	margin-top: 10px;
+}
+
+.about__footer {
+	background-color: aqua;
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 30px;
+	text-align: center;
+	border-width: 4px 8px 4px 8px;
+
+}
+
+/*!   Contacts   */
+
+
+
+.contacts__header {
+	font-size: 30px;
+	background-color: rgb(24, 220, 220);
+	margin-top: -40px;
+	padding-block: 5px;
+	margin-left: -10px;
+	margin-right: -10px;
+	opacity: 0.8;
+}
+
+
+
+
+
+.contacts__footer {
+	margin-top: 500px;
+	border-style: solid;
+	border-width: 5px;
+	width: 80px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: aqua;
+}
